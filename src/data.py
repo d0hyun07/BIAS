@@ -23,8 +23,8 @@ def split_audio_every_4s(file_path, save_dir, clip_length_sec=2, step_sec=4):
 
 # 사용 예시
 split_audio_every_4s(
-    file_path="C:/Users/u0102/Desktop/BIAS/data/data2/Gm/Gm_dist.wav",  # 긴 녹음 파일
-    save_dir="C:/Users/u0102/Desktop/BIAS/data/data2/Gm",             # 저장할 폴더
+    file_path="C:/Users/u0102/Desktop/BIAS/data/data2/D#m/D#m_dist.wav",  # 긴 녹음 파일
+    save_dir="C:/Users/u0102/Desktop/BIAS/data/data2/D#m",             # 저장할 폴더
     clip_length_sec=2,                                  # 2초짜리로 자르고
     step_sec=4                                          # 4초 간격으로 시작
 )
